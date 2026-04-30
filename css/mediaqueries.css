@@ -1,0 +1,149 @@
+@media (max-width: 1024px){
+    #menu a{
+        font-size: 1.2rem;
+    }
+
+    #input input{
+        font-size: 1.2rem;
+    }
+
+    .imagen-main .hero-text input{
+         font-size: 1.2rem;
+    }
+
+    .imagen-main h1{
+        font-size: 5rem;
+    }
+
+    .imagen-main p{
+        font-size: 2rem;
+    }
+
+    .favoritos-titulo h2{
+        font-size: 3rem;
+    }
+
+    .card{
+    width: 18rem;
+    padding: 2.3rem;
+    } 
+
+    .card h2{
+    font-size: 1.3rem;
+    
+    }
+
+    .button{
+    font-size: 0.8rem;
+    }
+
+    .novedades-titulo h2{
+    font-size: 3rem;
+    }
+
+    .review p{
+        font-size: 0.9rem;
+    }
+
+    .cta p{
+        font-size: 1.7rem;
+    }
+
+    footer{
+        font-size: 0.9rem;
+    }
+
+
+    #favoritos,
+    .novedades{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }
+
+  
+}
+
+
+
+
+@media (max-width:  768px){
+    #menu a{
+        font-size: 0.8rem;
+    }
+
+    #input input{
+        font-size: 0.8rem;
+    }
+
+    .imagen-main{
+    background-attachment: scroll;
+    }
+
+    .imagen-main .hero-text input{
+         font-size: 0.9rem;
+    }
+
+    .imagen-main h1{
+        font-size: 4rem;
+    }
+
+    .imagen-main p{
+        font-size: 1.5rem;
+    }
+
+    .favoritos-titulo h2{
+        font-size: 2.5rem;
+    }
+
+
+    .card h2{
+    font-size: 1rem;
+
+    }
+
+       .button{
+    font-size: 0.6rem;
+    }
+
+    .novedades-titulo h2{
+    font-size: 2.5rem;
+    }
+
+     .review p{
+        font-size: 0.8rem;
+    }
+
+    .cta p{
+        font-size: 1.2rem;
+    }
+
+     footer{
+        font-size: 0.8rem;
+    }
+
+    #favoritos,
+    .novedades{
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    
+
+    .card{
+        width: 85%;
+        max-width: 17rem;
+        padding: 2rem;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+    #favoritos .col-lg-4{
+        width: 50%;
+    }
+
+    #novedades .col-lg-4{
+        width: 50%;
+    }
+}
+
